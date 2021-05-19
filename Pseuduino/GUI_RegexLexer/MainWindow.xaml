@@ -1,0 +1,102 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="GUI_RegexLexer.MainWindow"
+        Title="MainWindow"
+        Height="480"
+        Width="1101"
+        Loaded="WindowLoaded"
+        WindowState="Maximized">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*" />
+            <RowDefinition Height="50*" />
+        </Grid.RowDefinitions>
+        <ListView x:Name="lvToken"
+                  Grid.Row="1"
+                  VirtualizingPanel.IsVirtualizing="True" SelectionChanged="LvToken_SelectionChanged">
+
+            <ListView.Resources>
+                <ControlTemplate x:Key="Error"
+                                 TargetType='{x:Type ListViewItem}'>
+                    <StackPanel Background="Tomato">
+                        <GridViewRowPresenter Content="{TemplateBinding Content}"
+                                              Columns="{TemplateBinding GridView.ColumnCollection}" />
+                    </StackPanel>
+                </ControlTemplate>
+            </ListView.Resources>
+
+            <ListView.ItemContainerStyle>
+                <Style TargetType="{x:Type ListViewItem}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Name}"
+                                     Value="ERROR">
+                            <Setter Property="Template"
+                                    Value="{StaticResource Error}" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.ItemContainerStyle>
+
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Token"
+                                    DisplayMemberBinding="{Binding Name}"
+                                    Width="150" />
+                    <GridViewColumn Header="Lexema"
+                                    DisplayMemberBinding="{Binding Lexema}"
+                                    Width="600" />
+                    <GridViewColumn Header="Linea"
+                                    DisplayMemberBinding="{Binding Linea}"
+                                    Width="70" />
+                    <GridViewColumn Header="Columna"
+                                    DisplayMemberBinding="{Binding Columna}"
+                                    Width="70" />
+                    <GridViewColumn Header="Indice"
+                                    DisplayMemberBinding="{Binding Index}"
+                                    Width="70" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBox x:Name="tbxCode"
+                 TextWrapping="Wrap"
+                 Text="&#13;&#13;preparar(){&#13;&#13;} &#13;iniciar programa(){&#13;&#13;}"
+                 
+                 VerticalScrollBarVisibility="Visible"
+                 TextChanged="CodeChanged"
+                 AcceptsReturn="True"
+                 AcceptsTab="True"
+                 Padding="5,0,0,0" Margin="0,82,0,0" />
+        <Viewbox HorizontalAlignment="Left" Height="63" VerticalAlignment="Top" Width="1800">
+            <Rectangle Fill="#FF7E7DCF" Height="59" Stroke="Black" Width="1800"/>
+        </Viewbox>
+        <Viewbox HorizontalAlignment="Left" Height="49" VerticalAlignment="Top" Width="287">
+            <Label Content= "&#60;/Pseuduino/>" Width="145" FontFamily="Tw Cen MT Condensed Extra Bold"  FontStyle="Italic" FontSize="20" Foreground="#FFE3E3E8"/>
+        </Viewbox>
+        <Menu HorizontalAlignment="Left" Height="19" Margin="0,63,0,0" VerticalAlignment="Top" Width="1800" Background="#FF7D7DCF">
+            <MenuItem Background="#FF3D1DAA" Header="Archivo" Foreground="#FFF9F0F0" Click="MenuItem_Click_2" >
+                <MenuItem.Icon>
+                    <Image Source="./img/nuevo.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem Background="#FFF9EDED" Header="Nuevo" Foreground="#FF0F0F0F"/>
+                
+                <MenuItem Background="#FFF5EEEE" Header="Abrir" Click="MenuItem_Click_3" Foreground="#FF0E0D0D"/>
+                <MenuItem Background="#FFF5EEEE" Header="Crear proyecto" Click="MenuItem_Click_3" Foreground="#FF0C0B0B"/>
+            </MenuItem>
+            <MenuItem Background="#FF3D1DAA" Header="Herramientas" Foreground="#FFF7F2F2" Click="MenuItem_Click_1">
+                <MenuItem.Icon>
+                    <Image Source="./img/sett.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem Background="#FFF9EDED" Header="Preferencias" Foreground="#FF0F0F0F"/>
+                <MenuItem Background="#FFF9EDED" Header="Color de editor" Foreground="#FF0F0F0F"/>
+            </MenuItem>
+
+            <MenuItem Background="#FF3D1DAA" Header="Ayuda" Click="MenuItem_Click" Foreground="#FFF3E9E9" Width="83">
+                <MenuItem.Icon>
+                    <Image Source="./img/help.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem  Background="#FFF9EDED" Header="Acerca" Foreground="#FF0F0F0F"/>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

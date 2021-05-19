@@ -1,0 +1,28 @@
+C:\Users\mosvi\Downloads\GUI_RegexLexer\GUI_RegexLexer\bin\Debug\GUI_RegexLexer.exe.config
+C:\Users\mosvi\Downloads\GUI_RegexLexer\GUI_RegexLexer\bin\Debug\GUI_RegexLexer.exe
+C:\Users\mosvi\Downloads\GUI_RegexLexer\GUI_RegexLexer\bin\Debug\GUI_RegexLexer.pdb
+C:\Users\mosvi\Downloads\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer.csprojAssemblyReference.cache
+C:\Users\mosvi\Downloads\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\MainWindow.baml
+C:\Users\mosvi\Downloads\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\MainWindow.g.cs
+C:\Users\mosvi\Downloads\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\App.g.cs
+C:\Users\mosvi\Downloads\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer_MarkupCompile.cache
+C:\Users\mosvi\Downloads\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer.g.resources
+C:\Users\mosvi\Downloads\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer.Properties.Resources.resources
+C:\Users\mosvi\Downloads\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer.csproj.GenerateResource.cache
+C:\Users\mosvi\Downloads\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer.csproj.CoreCompileInputs.cache
+C:\Users\mosvi\Downloads\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer.exe
+C:\Users\mosvi\Downloads\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer.pdb
+C:\Users\mosvi\OneDrive\Documentos\programas visual basic\GUI_RegexLexer\GUI_RegexLexer\bin\Debug\GUI_RegexLexer.exe.config
+C:\Users\mosvi\OneDrive\Documentos\programas visual basic\GUI_RegexLexer\GUI_RegexLexer\bin\Debug\GUI_RegexLexer.exe
+C:\Users\mosvi\OneDrive\Documentos\programas visual basic\GUI_RegexLexer\GUI_RegexLexer\bin\Debug\GUI_RegexLexer.pdb
+C:\Users\mosvi\OneDrive\Documentos\programas visual basic\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer.csprojAssemblyReference.cache
+C:\Users\mosvi\OneDrive\Documentos\programas visual basic\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\MainWindow.baml
+C:\Users\mosvi\OneDrive\Documentos\programas visual basic\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\MainWindow.g.cs
+C:\Users\mosvi\OneDrive\Documentos\programas visual basic\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\App.g.cs
+C:\Users\mosvi\OneDrive\Documentos\programas visual basic\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer_MarkupCompile.cache
+C:\Users\mosvi\OneDrive\Documentos\programas visual basic\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer.g.resources
+C:\Users\mosvi\OneDrive\Documentos\programas visual basic\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer.Properties.Resources.resources
+C:\Users\mosvi\OneDrive\Documentos\programas visual basic\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer.csproj.GenerateResource.cache
+C:\Users\mosvi\OneDrive\Documentos\programas visual basic\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer.csproj.CoreCompileInputs.cache
+C:\Users\mosvi\OneDrive\Documentos\programas visual basic\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer.exe
+C:\Users\mosvi\OneDrive\Documentos\programas visual basic\GUI_RegexLexer\GUI_RegexLexer\obj\Debug\GUI_RegexLexer.pdb
